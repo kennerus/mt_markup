@@ -14,6 +14,12 @@
 	color: white;
 }
 
+@media (max-width: 1200px) {
+	.content__back a {
+		width: 100%;
+	}
+}
+
 .content__back img {
 	margin-left: 33px;
 	margin-right: 21px; 
@@ -61,6 +67,44 @@
     transition: all 0.3s;
 }
 
+@media (max-width: 1200px) {
+	.content__contents {
+		flex-direction: column;
+	}
+	
+	.tab {
+		flex-direction: row;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		width: 100%;
+		margin-top: 0;
+		margin-right: 0;
+		margin-left: 0;
+		border-radius: 0;
+	}
+
+	.tab h3 {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media (max-width: 768px) {
+	.tab button {
+		width: 50%;
+	}
+}
+
+@media (max-width: 576px) {
+	.content__back img {
+		margin-left: 15px;
+	}
+
+	.tab button {
+		width: 100%;
+	}
+}
+
 /* Change background color of buttons on hover */
 .tab button:hover {
 	color: white;
@@ -95,6 +139,19 @@
     padding-right: 63px;
     padding-left: 20px;
     border-top: none;
+}
+
+@media (max-width: 1200px) {
+	.tabcontent {
+		padding: 0 30px;
+	}
+}
+
+@media (max-width: 576px) {
+	.tabcontent {
+		margin-top: 30px;
+		padding: 0 15px;
+	}
 }
 
 .tabcontent {
@@ -173,6 +230,39 @@
 
 .page_nav a:last-child img {
 	margin-left: 10px;
+}
+
+@media (max-width: 576px) {
+	.tabcontent > a > img {
+		width: 100%;
+		height: auto;
+		margin-right: 0;
+	}
+
+	.magnifier {
+		left: 50%;
+		width: 100%;
+	}
+
+	.page_nav {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.page_nav a:first-child {
+		margin-right: 15px;
+	}
+
+}
+
+@media (max-width: 320px) {
+	.page_nav {
+		margin-top: 20px;
+	}
+
+	.page_nav a {
+		margin-top: 10px;
+	}
 }
 
 
