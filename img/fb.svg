@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>fb</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop_MyProfile" transform="translate(-960.000000, -890.000000)">
+            <g id="fb" transform="translate(960.000000, 890.000000)">
+                <rect id="Rectangle-87" fill="#B0BEC5" x="0" y="0" width="48" height="48" rx="4"></rect>
+                <path d="M29.7480046,23.4327797 L26.4262742,23.4327797 L26.4262742,34.9099998 L21.3935706,34.9099998 L21.3935706,23.4327797 L19,23.4327797 L19,19.3993378 L21.3935706,19.3993378 L21.3935706,16.7892428 C21.3935706,14.9227431 22.3333448,12 26.4710728,12 L30.1989768,12.0147092 L30.1989768,15.9298518 L27.4941392,15.9298518 C27.0501356,15.9298518 26.4262742,16.1392227 26.4262742,17.0292839 L26.4262742,19.4030934 L30.1873623,19.4030934 L29.7480046,23.4327797 Z" id="Fill-4" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

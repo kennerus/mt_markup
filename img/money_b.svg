@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>money_b</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="money_b">
+            <rect id="Rectangle-62" x="0" y="0" width="24" height="24"/>
+            <circle id="Oval-4" fill="#3DCCC6" cx="12" cy="12" r="10"/>
+            <path d="M9.0195819,14.015637 L13.0039265,13.9999923 C15.209139,14 17,12.209139 17,10 C17,7.790861 15.209139,6 13,6 L9.0156554,6 L9.0156554,8 L13,8 C14.1045695,8 15,8.8954305 15,10 C15,11.1045695 14.1045695,12 13,12 L9.0117289,12.0156524 L9.0195819,14.015637 Z" id="Oval" fill="#FFFFFF"/>
+            <rect id="Rectangle-10" fill="#FFFFFF" x="9" y="6" width="2" height="13"/>
+            <rect id="Rectangle" fill="#FFFFFF" x="8" y="15" width="6" height="2"/>
+        </g>
+    </g>
+</svg>

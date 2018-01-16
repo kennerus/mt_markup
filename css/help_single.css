@@ -1,0 +1,187 @@
+.content__back {
+	display: flex;
+	align-items: center;
+	max-width: 1170px;
+	margin: 0 auto;
+ 	background-color: #184355;
+ 	opacity: 0.5;
+ }
+
+.content__back a {
+	width: calc(100% - 250px);
+	margin-left: auto;
+	padding: 11px 0;
+	color: white;
+}
+
+.content__back img {
+	margin-left: 33px;
+	margin-right: 21px; 
+}
+
+.content-sp {
+	min-height: calc(100vh - 104px);
+	padding: 0;
+}
+
+.content__contents {
+	display: flex;
+}
+
+ /* Style the tab */
+.tab {
+	display: flex;
+	flex-direction: column;
+	min-width: 209px;
+	height: 100%;
+	margin-top: 14px;
+	margin-right: 11px;
+	margin-left: 20px;
+    border: 1px solid #CCDAE3;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+}
+
+.tab h3 {
+	margin-top: 13px;
+	padding-left: 15px;
+	font-size: 20px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    border: none;
+    text-align: left;
+    color: #31A3B7;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 16px;
+    transition: all 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+	color: white;
+    background-color: #3DCCC6;
+    transition: all 0.3s;
+}
+
+.content__tab-content {
+	padding-bottom: 43px;
+	background-color: white;
+	border: none;
+}
+
+/* Create an active/current tablink class */
+.tab button.activeTab {
+	color: white;
+    background: linear-gradient(0deg, #3DCCC6 0%, #31A3B7 100%);
+    transition: all 0.3s;
+}
+
+.tab button.activeTab:hover {
+	background: linear-gradient(0deg, #3DCCC6 0%, #3DCCC6 100%);
+    transition: all 0.3s;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    flex-wrap: wrap;
+    min-height: calc(100vh - 104px);
+    margin-top: 50px;
+    padding-right: 63px;
+    padding-left: 20px;
+    border-top: none;
+}
+
+.tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+.tabcontent h2 {
+	margin: 0;
+	font-size: 30px;
+}
+
+.tabcontent p:first-child {
+	margin-top: 22px;
+}
+
+.tabcontent p {
+	margin: 0;
+	margin-top: 10px;
+	line-height: 1.5;
+}
+
+.tabcontent > a > img {
+	height: 160px;
+	margin-top: 33px;
+	margin-right: 20px;
+	margin-bottom: 33px;
+	cursor: pointer;
+}
+
+.tabcontent > a {
+	position: relative;
+}
+
+.magnifier {
+    position: absolute;
+    top: calc(50% - 2px);
+    left: calc(50% - 10px);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 19px);
+    height: calc(100% - 69px);
+    transform: translate(-50%, -50%);
+    background-color: rgba(75,91,102,0.39);
+    box-shadow: 0 15px 26px 0 rgba(24,67,85,0.51);
+    z-index: 2;
+}
+
+.magnifier img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tabcontent hr {
+	margin-top: 18px;
+}
+
+.page_nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-self: flex-end;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.page_nav a {
+	color: #31A3B7;
+}
+
+.page_nav a:first-child img {
+	margin-right: 10px;
+}
+
+.page_nav a:last-child img {
+	margin-left: 10px;
+}
+
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.df {
+	display: flex;
+}
+
