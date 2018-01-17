@@ -36,7 +36,7 @@ h2, h3 {
 	height: 64px;
 	background-color: #1F282D;
 	box-shadow: 0 12px 9px 0 rgba(24,67,85,0.27);
-	z-index: 2;
+	z-index: 3;
 }
 
 .header .container {
@@ -193,6 +193,7 @@ main {
 	padding-bottom: 30px;
 	background-color: white;
 	box-shadow: 8px 4px 5px 0 rgba(24,67,85,0.15);
+	z-index: 2;
 }
 
 .sidebar::before {
