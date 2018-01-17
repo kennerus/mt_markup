@@ -9,19 +9,24 @@ $(function () {
         $('.profile-menu').toggleClass('expand');
     });
 
-    $("[data-fancybox]").fancybox({
+    if($('[data-fancybox]')) {
+        $("[data-fancybox]").fancybox({
 
-    });
+        });
 
-    $('.tabcontent a').on('mouseenter', function() {
-        $(this).find('.magnifier').fadeIn(200);
-    })
+        $('.tabcontent a').on('mouseenter', function() {
+            $(this).find('.magnifier').fadeIn(200);
+        })
 
-    $('.tabcontent a').on('mouseleave', function() {
-        $(this).find('.magnifier').fadeOut(200);
-    })
+        $('.tabcontent a').on('mouseleave', function() {
+            $(this).find('.magnifier').fadeOut(200);
+        })
+    }
+
+    
 });
 
+// tabs
 function openTab(evt, tabName) {
     // Declare all variables
     var i, tabcontent, tablinks;
@@ -44,4 +49,28 @@ function openTab(evt, tabName) {
 }
 
 // Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
+var defaultOpen = document.getElementById("defaultOpen");
+
+if(defaultOpen) {
+    defaultOpen.click();
+}
+
+// accordion
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+if(acc) {
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("activeAcc");
+            var panel = this.nextElementSibling;
+
+            if (panel.style.maxHeight){
+                panel.style.maxHeight = null;
+            } 
+            else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+      });
+    }
+}
