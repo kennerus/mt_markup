@@ -1,0 +1,230 @@
+h4, p {
+	margin: 0;
+}
+
+.f-wrap {
+	flex-wrap: wrap;
+}
+
+.section .mt10 {
+	margin-top: 10px;
+}
+
+.blue-dash,
+.white-dash {
+	display: block;
+	height: 2px;
+	width: 15px;
+	margin-top: 10px;
+	margin-right: 12px;
+	background-color: #3DCCC6;
+}
+
+.white-dash {
+	background-color: white;
+}
+
+ul {
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+ul li {
+	display: flex;
+	margin-top: 20px;
+}
+
+ul li:first-child {
+	margin-top: 0;
+}
+
+.sections .content-wrap,
+.tarif-faq .content-wrap {
+	flex-direction: column;
+}
+
+.myteam-desc.content {
+	display: flex;
+	align-items: center;
+	min-height: inherit;
+}
+
+.myteam-desc__left {
+	width: 500px;
+}
+
+.myteam-desc__divider {
+	width: 3px;
+	height: 254px;
+	margin: 0 25px;
+	background-image: linear-gradient(to top, #60C0BA, #35A3A7)
+}
+
+.myteam-desc__right {
+	width: 300px;
+}
+
+.myteam-desc__left {
+	margin: 0;
+}
+
+.myteam-desc__right p {
+	margin: 0;
+	font-size: 20px;
+	color: #31A3B7;
+}
+
+.main-adv {
+	padding-top: 15px;
+	padding-right: 65px;
+	background-color: #F6F8FA;
+}
+
+.main-adv .content-wrap {
+	align-items: center;
+}
+
+.main-adv p {
+	margin-right: 37px;
+}
+
+.main-adv img {
+	align-self: flex-end;
+	min-width: 219px;
+	height: 270px;
+	box-shadow: 0 15px 33px 0 rgba(24,67,85,0.47);
+}
+
+.sections {
+	position: relative;
+	padding-top: 33px;
+	background-color: #EAEEF1;
+}
+
+.section {
+	display: flex;
+	margin-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #CCDAE3;
+}
+
+.section:last-child {
+	border: none;
+}
+
+.section img {
+	box-shadow: 0 15px 33px 0 rgba(24,67,85,0.47);
+}
+
+.section:first-child {
+	margin-top: 33px;
+}
+
+.section__myteam {
+	margin-right: 60px;
+}
+
+.section__myteam-img {
+	min-width: 170px;
+	height: 268px;
+}
+
+.section__my-tasks,
+.section__myteam-img {
+	margin-right: 90px;
+}
+
+.section__my-tasks {
+	margin-top: 20px;
+}
+
+.section__my-tasks p,
+.schedule__desc p {
+	margin-top: 30px;
+}
+
+.my-tasks__desc p:first-child {
+	margin: 0;
+}
+
+.section__my-tasks strong,
+.schedule__desc strong {
+	color: #33A2BC;
+}
+
+.my-tasks__img {
+	min-width: 178px;
+	height: 800px;
+	margin-right: 44px;
+}
+
+.my-tasks__desc {
+	margin-top: 60px;
+}
+
+.schedule {
+	display: flex;
+}
+
+.schedule__desc {
+	margin-right: 40px;
+}
+
+.schedule__img {
+	min-width: 300px;
+	height: 313px;
+}
+
+.ps {
+	margin-top: 40px;
+	font-size: 14px;
+}
+
+.blog,
+.my-services,
+.my-feedbacks,
+.my-messages {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.blog {
+	margin-right: 90px;
+}
+
+.blog__img {
+	min-width: 273px;
+	height: 254px;
+	margin-right: 20px;
+}
+
+.my-services,
+.my-messages {
+	padding-left: 100px;
+	margin-right: 60px;
+}
+
+.my-services__img {
+	min-width: 205px;
+	height: 223px;
+	margin-right: 30px;
+}
+
+.my-feedbacks {
+	margin-right: 95px;
+}
+
+.my-feedbacks__img {
+	min-width: 176px;
+	height: 262px;
+	margin-right: 65px;
+	padding-left: 55px;
+}
+
+.my-messages__img {
+	min-width: 176px;
+	height: 213px;
+	margin-right: 60px;
+}

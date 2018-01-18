@@ -1,69 +1,8 @@
-main > div:not(.container) {
-    max-width: 1170px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-h3 {
-    font-size: 24px;
-    font-weight: normal;
-}
-
-.content-wrap {
-    position: relative;
-    display: flex;
-    width: calc(100% - 250px);
-    margin-left: auto;
-    padding-left: 44px;
-    padding-right: 30px;
-}
-
-.main-header {
-    padding-top: 58px;
-    padding-bottom: 48px;
-    background: linear-gradient(270deg, #3DCCC6 0%, #31A3B7 100%);
-}
-
-.main-header p {
-    max-width: 620px;
-    width: 100%;
-    margin: 0;
-    margin-right: 75px;
-    font-size: 24px;
-    line-height: 1.3;
-    color: white;
-}
-
 .main-header img {
     width: 115px;
     height: 92px;
 }
 
-@media (max-width: 1200px) {
-    .content-wrap {
-        width: 100%;
-        padding: 30px;
-    }
-
-    .main-header {
-        padding: 0;
-    }
-
-    .main-header p {
-        margin-right: 10px;
-    }
-}
-
-@media (max-width: 576px) {
-    .content-wrap {
-        flex-wrap: wrap;
-        padding: 15px;
-    }
-
-    .main-header p {
-        margin: 0;
-    }
-}
 
 .content__text p {
     line-height: 1.3;
