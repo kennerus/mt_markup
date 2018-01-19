@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="12px" viewBox="0 0 24 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Bow_pro</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="201.109123%" y1="4.2425746%" x2="201.109132%" y2="98.2700884%" id="linearGradient-1">
+            <stop stop-color="#3DCCC6" offset="0%"></stop>
+            <stop stop-color="#31A3B7" offset="100%"></stop>
+        </linearGradient>
+        <path d="M11.0980496,11.5490248 C11.5961831,11.7980915 11.6007385,12.1996307 11.0980496,12.4509752 L1.79652125,17.1017394 C0.804329959,17.597835 0,17.0980496 0,15.9914698 L0,8.0085302 C0,6.8992496 0.805987179,6.40299359 1.79652125,6.89826062 L11.0980496,11.5490248 Z" id="path-2"></path>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="11.47336" height="11.2920441" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+        <path d="M23.6246897,11.551065 C24.1228231,11.8001317 24.1273786,12.2016709 23.6246897,12.4530154 L14.3231613,17.1037796 C13.33097,17.5998752 12.52664,17.1000898 12.52664,15.99351 L12.52664,8.01057038 C12.52664,6.90128978 13.3326272,6.40503377 14.3231613,6.9003008 L23.6246897,11.551065 Z" id="path-4"></path>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="11.47336" height="11.2920441" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bow_pro" transform="translate(0.000000, -6.000000)">
+            <g>
+                <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                <use id="Triangle" stroke="url(#linearGradient-1)" mask="url(#mask-3)" stroke-width="2" fill="#ABF3F0" xlink:href="#path-2"></use>
+                <use id="Triangle-Copy" stroke="url(#linearGradient-1)" mask="url(#mask-5)" stroke-width="2" fill="#ABF3F0" transform="translate(18.263320, 12.001020) rotate(-180.000000) translate(-18.263320, -12.001020) " xlink:href="#path-4"></use>
+                <circle id="Oval-2" stroke="url(#linearGradient-1)" fill="#ABF3F0" cx="12" cy="12" r="3"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

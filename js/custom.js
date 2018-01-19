@@ -74,3 +74,33 @@ if(acc) {
       });
     }
 }
+
+// contacts subject list
+var subject = document.getElementById('subject');
+var subjectList = document.querySelector('.subject_list');
+
+// open subject list
+subject.addEventListener('click', function() {
+    subject.querySelector('img').classList.toggle('rotate180');
+    subjectList.classList.toggle('open_subject');
+
+    if (subjectList.style.maxHeight) {
+        subjectList.style.maxHeight = null;
+    }
+    else {
+        subjectList.style.maxHeight = subjectList.scrollHeight + 30 + "px";
+    }
+})
+
+// change subject
+function replaceSubject() {
+    var activeSubject = document.querySelector('.active_subject');
+    var subjectElement = subjectList.querySelectorAll('li');
+
+    for(var i = 0; i < subjectElement.length; i++) {
+        subjectElement[i].addEventListener('click', function() {
+            activeSubject.innerHTML = activeSubject.innerHTML.replace(activeSubject.innerHTML, this.innerHTML);
+        });
+    }
+}
+replaceSubject();
